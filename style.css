@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --color:#241812;
+    --color1:#473230;
+    --color2:#683F28;
+    --color3:#F3F1DE;
+    --color4:#A5111E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color1);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--color3);
+    padding: 4px;
+}
+
+nav{
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+nav a:hover{
+    background-color: var(--color4);
+    letter-spacing: 2px;
+}
+
+#logotipo{
+    font-family: 'Italianno', serif;
+    font-size: 45px;
+    color: var(--color3);
+}
+
+#home{
+    height: 80vh;
+    background-image: url(img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg);background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+h1{
+    font-family: 'Italianno', serif;
+    font-size: 120px;
+    color: var(--color);
+}
+
+#home p{
+    letter-spacing: 4px;
+    color: var(--color3);
+    background-color: var(--color4);
+    padding: 4px;
+}
+
+h2{
+    font-family: 'Italianno', serif;
+    font-size: 70px;
+}
